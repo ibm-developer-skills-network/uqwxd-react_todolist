@@ -1,5 +1,6 @@
 import React, {useState,useEffect} from "react";
 import "./App.css";
+
 const App = () => {
   const [todos, setTodos] = useState([]);
   const [todoEditing, setTodoEditing] = useState(null);
@@ -18,7 +19,7 @@ useEffect(() => {
         localStorage.setItem("todos", json);
     }
   }, [todos]);
-  
+
   function handleSubmit(e) {
     e.preventDefault();
 
