@@ -1,5 +1,8 @@
 .App {
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .App-logo {
@@ -35,4 +38,15 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.bigDiv {
+  border: 2px solid #61dafb;
+  border-radius: 20px;
+  background-color: yellow;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  height: 500px;
 }
